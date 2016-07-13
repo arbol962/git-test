@@ -1,0 +1,16 @@
+git のテストです
+
+$ mkdir git-test
+$ cd git-test/
+$ touch [ファイル名]
+
+ーファイル編集ー
+
+$ git add [ファイル名]
+$ git commit -m '[コミットにおけるコメント]'
+
+$ git remote add origin git@github.com:clicktx/git-test.git
+(リモートのショートネームをorigin で登録)
+
+プッシュ
+$ git push -u origin master
